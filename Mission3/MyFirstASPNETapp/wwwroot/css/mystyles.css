@@ -1,0 +1,47 @@
+﻿
+p {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+/*div spacing*/
+div {
+    padding-block: 70px;
+}
+
+body {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+}
+
+
+h1 {
+    font-size: 80px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 70px;
+}
+
+label {
+    width: 40px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ol {
+    display: inline-block;
+    text-align: center;
+}
+
+input { 
+    margin-left: 80px;
+}

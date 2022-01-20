@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{12CD8554-C308-4690-B8D1-F8E8EF2C7BA1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyFirstASPNETapp/Views/Home/Calculator.cshtml">
+    <Files>
+      <File FileName="MyFirstASPNETapp/Startup.cs" Line="14" Column="6" />
+      <File FileName="MyFirstASPNETapp/Views/blah/Index.cshtml" Line="5" Column="5" />
+      <File FileName="MyFirstASPNETapp/Views/Shared/_Layout.cshtml" Line="16" Column="1" />
+      <File FileName="MyFirstASPNETapp/Views/Home/Calculator.cshtml" Line="30" Column="41" />
+      <File FileName="MyFirstASPNETapp/wwwroot/js/calculator.js" Line="38" Column="12" />
+      <File FileName="MyFirstASPNETapp/Controllers/HomeController.cs" Line="30" Column="46" />
+      <File FileName="MyFirstASPNETapp/Models/EmptyClass.cs" Line="8" Column="19" />
+      <File FileName="MyFirstASPNETapp/Views/_ViewImports.cshtml" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyFirstASPNETapp" expanded="True">
+            <Node name="MyFirstASPNETapp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Calculator.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyFirstASPNETapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

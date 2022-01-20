@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Grade Calculator";
+}
+
+@model CalcModel;
+
+<!--final grade claculator-->
+<div class="calculator, border">
+    <h3>Grade Calculator:</h3><br />
+    <p>
+        Enter the percentage scored for each grade category below to calculate your final grade.
+    </p><br />
+
+        <form method="post">
+            <label for="assignments">Assignments:</label>
+            <input type="number" id="assignments" asp-for="assignments" min="0" max="100"><br>
+            <span asp-validation-for="assignments" class="text-danger"></span><br />
+
+            <label for="gp">Group Project: </label>
+            <input type="number" id="gp" asp-for="gp" min="0" max="100"><br>
+            <span asp-validation-for="gp" class="text-danger"></span><br />
+
+            <label for="quizzes">Quizzes: </label>
+            <input type="number" id="quizzes" asp-for="quizzes" min="0" max="100"><br>
+            <span asp-validation-for="quizzes" class="text-danger"></span><br />
+
+            <label for="exams">Exams: </label>
+            <input type="number" id="exams" asp-for="exams" min="0" max="100"><br>
+            <span asp-validation-for="exams" class="text-danger"></span><br />
+
+            <label for="intex">INTEX: </label>
+            <input type="number" id="intex" asp-for="intex" min="0" max="100"><br><br />
+            <span asp-validation-for="intex" class="text-danger"></span><br />
+
+            <button id="calculate" type="submit" class="btn btn-primary">Calculate Grade</button>
+
+        </form>
+</div>
+<div></div>
+
+<!--links to jquery and js files-->
+
+<script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+<script src="~/js/calculator.js"></script>

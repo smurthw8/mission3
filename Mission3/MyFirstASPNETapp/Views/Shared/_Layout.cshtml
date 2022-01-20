@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+
+    <!--tab icon-->
+    <link rel="icon" href="@Url.Content("~/img/burger.png")">
+
+    <!--links to stylesheets-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/mystyles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+        <a asp-controller="Home" asp-action="Calculator" class="nav-link">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+
+</body>
+</html>
